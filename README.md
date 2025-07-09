@@ -1,4 +1,4 @@
-# VoiceIQ
+# VoiceIQ - client
 
 **VoiceIQ** is an intelligent call log processing system designed to handle customer support interactions efficiently. It leverages advanced AI models and APIs to transcribe, analyze, and store call logs while ensuring sensitive information is sanitized and securely managed. This project is built for enterprise use and integrates seamlessly with external APIs and databases.
 

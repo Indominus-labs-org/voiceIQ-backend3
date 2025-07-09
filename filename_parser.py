@@ -11,7 +11,7 @@ async def parse_call_filename(filename: str) -> dict:
     # call_type = parts[0]
     # raw_date = parts[3]
     # raw_time = parts[4]
-    
+    call_date = datetime.utcnow().isoformat() 
     # call_date = datetime.strptime(raw_date, "%Y%m%d").date().isoformat()
     # call_start_time = datetime.strptime(raw_time, "%H%M%S").time().isoformat()  # ISO 8601 time format
     
@@ -21,7 +21,7 @@ async def parse_call_filename(filename: str) -> dict:
         # "toll_free_did": None,
         # "agent_extension": None,
         # "customer_number": parts[2],
-        # "call_date": call_date,
+        "call_date": call_date,
         # "call_start_time": call_start_time,
         # "call_id": parts[5],
     }
